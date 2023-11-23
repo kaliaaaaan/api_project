@@ -11,10 +11,10 @@ repositories {
 }
 
 def allureVersion = "2.22.1",
-    restAssuredVersion = "5.3.0",
-    validatorRestAssuredVersion = "5.3.0",
+    restAssuredVersion = "5.3.2",
+    validatorRestAssuredVersion = "5.3.2",
     javaFakerVersion = "1.0.2",
-    jupiterVersion = "5.9.2",
+    jupiterVersion = "5.10.0",
     ownerVersion = "1.0.12",
     assertjCoreVersion = "3.24.2"
 
@@ -43,6 +43,8 @@ dependencies {
             "io.qameta.allure:allure-rest-assured:${allureVersion}",
             "org.assertj:assertj-core:${assertjCoreVersion}"
     )
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 }
 
 tasks.withType(JavaCompile) {

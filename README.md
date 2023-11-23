@@ -65,7 +65,7 @@ ${TASK}
 <img title="Test Results in Alure" src="media/screenshots/allure2-screen.png">
 </p>
 
-## <img name="TestOps" src="media/images/Allure_TestOps.svg" title="Allure TestOps" width="4%"/> <a href="https://allure.autotests.cloud/project/3841/dashboards" target="_blank">Интеграция с Allure TestOps</a>
+## <img name="TestOps" src="media/images/Allure_TestOps.svg" title="Allure TestOps" width="4%"/> <a href="https://allure.autotests.cloud/project/3846/dashboards" target="_blank">Интеграция с Allure TestOps</a>
 
 Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
 Результат выполнения автотестов отображается в <code>Allure TestOps</code>

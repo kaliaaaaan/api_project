@@ -20,7 +20,7 @@ public class PutUpdateUsers extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Изменение пользователя")
     @Description("Позитивный сценарий")
-    public void positiveUpdateUserTest() {
+    public void positiveUpdateUserTestPut() {
         body.setName("Ivan").setJob("Pilot");
         val response = putUpdateUser(body, (11));
         assertUpdateUserTestApi(response, body);

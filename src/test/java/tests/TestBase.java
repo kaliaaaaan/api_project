@@ -11,7 +11,7 @@ public class TestBase {
 
     @BeforeAll
     static void setup() {
-        RestAssured.baseURI = config.baseUrl();
+        RestAssured.baseURI = config.baseUri();
         RestAssured.basePath = config.basePath();
     }
 
