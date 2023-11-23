@@ -18,6 +18,7 @@ public class DeleteUser extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Удаление пользователя с id")
     @Description("Позитивный сценарий")
+    @Owner("Nikolay Pronyushkin")
     @ParameterizedTest(name = " = [{0}]")
     @ValueSource(strings = {"2", "4", "0"})
     public void deleteUserTest(int userId) {

@@ -20,6 +20,7 @@ public class CreateUser extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Проверка создания пользователя")
     @Description("Позитивный сценарий")
+    @Owner("Nikolay Pronyushkin")
     @Tag("sanity")
     public void positiveCreateUserTest() {
         body.setName("Neo").setJob("The chosen one");

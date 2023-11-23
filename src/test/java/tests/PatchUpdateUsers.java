@@ -12,7 +12,7 @@ import static service.RequestUpdateUser.patchUpdateUser;
 
 @Story("Изменение пользователя")
 @DisplayName("Изменение пользователя API PUT /users/id")
-@Owner("Aleksey_Astashkin")
+@Owner("Nikolay Pronyushkin")
 public class PatchUpdateUsers extends TestBase {
 
     CreateUsersBodyModel body = new CreateUsersBodyModel();

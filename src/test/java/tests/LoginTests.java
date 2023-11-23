@@ -14,7 +14,7 @@ import static service.RequestLoginUser.sendLoginRaw;
 
 @Story("Авторизация")
 @DisplayName("Авторизация API POST /login")
-@Owner("Aleksey_Astashkin")
+@Owner("Nikolay Pronyushkin")
 public class LoginTests extends TestBase {
 
     LoginBodyModel body = new LoginBodyModel();
