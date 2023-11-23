@@ -5,12 +5,11 @@ import models.LoginResponseModel;
 
 import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class AssertionsResponseLoginApi {
 
     public static void assertPositiveLoginApi(LoginResponseModel response) {
-        step("Проверяем что присутствует token : ", () ->
+        step("Проверяем что присутствует token :\"QpwL5tke4Pnpja7X4\"", () ->
                 assertEquals("QpwL5tke4Pnpja7X4",response.getToken()));
     }
 

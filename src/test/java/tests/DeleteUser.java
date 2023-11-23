@@ -10,8 +10,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static service.RequestDeleteUser.sendDeleteUserRaw;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@Story("Удаление пользователя")
-@DisplayName("Удаление пользователя API DELETE users/")
+@DisplayName("Удаление пользователя")
 public class DeleteUser extends TestBase {
 
     @Tag("sanity")

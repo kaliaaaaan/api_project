@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 import static responseassertions.AssertionsResponseCreateUserApi.assertPositiveCreateUserApi;
 import static service.RequestCreateUser.sendCreateUser;
 
-@DisplayName("Создание юзера API POST /users")
+@DisplayName("Создание юзера")
 public class CreateUser extends TestBase {
 
     CreateUsersBodyModel body = new CreateUsersBodyModel();

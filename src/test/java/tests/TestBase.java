@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 
 public class TestBase {
 
-    static ApiConfig config = ConfigFactory.create(ApiConfig.class, System.getProperties());
+    static ApiConfig config = ConfigFactory.create(ApiConfig.class);
 
     @BeforeAll
     static void setup() {

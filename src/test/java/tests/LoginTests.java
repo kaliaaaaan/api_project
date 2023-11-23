@@ -12,7 +12,6 @@ import static responseassertions.AssertionsResponseLoginApi.assertPositiveLoginA
 import static service.RequestLoginUser.sendLogin;
 import static service.RequestLoginUser.sendLoginRaw;
 
-@Story("Авторизация")
 @DisplayName("Авторизация API POST /login")
 @Owner("Nikolay Pronyushkin")
 public class LoginTests extends TestBase {

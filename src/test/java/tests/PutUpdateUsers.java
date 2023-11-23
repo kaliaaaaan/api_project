@@ -6,12 +6,13 @@ import models.CreateUsersBodyModel;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static responseassertions.AssertionsResponseUpdateUsers.assertUpdateUserTestApi;
-import static service.RequestUpdateUser.patchUpdateUser;
 
-@DisplayName("Изменение пользователя методом Patch")
+import static responseassertions.AssertionsResponseUpdateUsers.assertUpdateUserTestApi;
+import static service.RequestUpdateUser.putUpdateUser;
+
+@DisplayName("Изменение пользователя методом PUT")
 @Owner("Nikolay Pronyushkin")
-public class PatchUpdateUsers extends TestBase {
+public class PutUpdateUsers extends TestBase {
 
     CreateUsersBodyModel body = new CreateUsersBodyModel();
 
@@ -20,8 +21,8 @@ public class PatchUpdateUsers extends TestBase {
     @DisplayName("Изменение пользователя")
     @Description("Позитивный сценарий")
     public void positiveUpdateUserTest() {
-        body.setName("Test").setJob("Job");
-        val response = patchUpdateUser(body, (13));
+        body.setName("Ivan").setJob("Pilot");
+        val response = putUpdateUser(body, (11));
         assertUpdateUserTestApi(response, body);
 
     }
