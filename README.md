@@ -53,7 +53,7 @@ ${TASK}
 <img title="Jenkins Build" src="media/screenshots/jenkins-api_screen.png">
 </p>
 
-## <img name="allure" src="media/images/Allure_Report.svg" title="Allure Report" width="4%"/> <a href="https://jenkins.autotests.cloud/job/pronyushkin_api_project/10/allure/" target="_blank">Пример Allure-отчета</a>
+## <img name="allure" src="media/images/Allure_Report.svg" title="Allure Report" width="4%"/> <a href="https://jenkins.autotests.cloud/job/pronyushkin_api_project//allure/" target="_blank">Пример Allure-отчета</a>
 
 <p align="center">
 <img title="Allure Overview" src="media/screenshots/allure-api-screen.png">
